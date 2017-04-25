@@ -14,7 +14,7 @@ After you've soldered the sensor to the header strip move to the wiring sesion.
 
 *Wiring*
 
-Place the MPR121 board into a breadboard and connect its inputs to the electrodes you plan to use.  Then follow the wiring below for your platform to connect the MPR121 to an I2C communication channel.
+Place the MPR121 board into a breadboard and connect its inputs to the electrodes you plan to use (for more info see [[https://learn.adafruit.com/adafruit-mpr121-12-key-capacitive-touch-sensor-breakout-tutorial/wiring][here]]).  Then follow the wiring below for your platform to connect the MPR121 to an I2C communication channel.
 Raspberry Pi
 On a Raspberry Pi connect the hardware as follows.
 Note: Make sure you've enabled I2C on your Raspberry Pi!
