@@ -1,6 +1,6 @@
 VA-210417
 
-* Adafruit MPR121 on Raspberry
+* Adafruit MPR121 on Raspberry pi
 
 * Soldering
 
