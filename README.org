@@ -17,9 +17,26 @@ After you've soldered the sensor to the header strip move to the wiring sesion.
 Place the MPR121 board into a breadboard and connect its inputs to the electrodes you plan to use (for more info see [[https://learn.adafruit.com/adafruit-mpr121-12-key-capacitive-touch-sensor-breakout-tutorial/wiring][here]]).  Then follow the wiring below for your platform to connect the MPR121 to an I2C communication channel.
 Raspberry Pi
 On a Raspberry Pi connect the hardware as follows.
-Note: Make sure you've enabled I2C on your Raspberry Pi!
 
 For more info see [[https://learn.adafruit.com/mpr121-capacitive-touch-sensor-on-raspberry-pi-and-beaglebone-black/hardware][here]]
+
+*Note*: Make sure you've enabled I2C on your Raspberry Pi!
+
+* Configuring I2C
+
+I2C is a very commonly used standard designed to allow one chip to talk to another. So, since the Raspberry Pi can talk I2C we can connect it to a variety of I2C capable chips and modules.
+Here are some of the Adafruit projects that make use of I2C devices and modules:
+
+https://learn.adafruit.com/adafruits-raspberry-pi-lesson-4-gpio-setup/configuring-i2c
+
+
+*** Testing I2C
+
+Now when you log in you can type the following command to see all the connected devices
+
+#+BEGIN_EXAMPLE
+$ sudo i2cdetect -y 1
+#+END_EXAMPLE
 
 * Install Adafruit MPR121 on Raspberry
 
@@ -44,22 +61,6 @@ and install it
 cd Adafruit_Python_MPR121
 sudo python setup.py install
 
-#+END_EXAMPLE
-
-* Configuring I2C
-
-I2C is a very commonly used standard designed to allow one chip to talk to another. So, since the Raspberry Pi can talk I2C we can connect it to a variety of I2C capable chips and modules.
-Here are some of the Adafruit projects that make use of I2C devices and modules:
-
-https://learn.adafruit.com/adafruits-raspberry-pi-lesson-4-gpio-setup/configuring-i2c
-
-
-*** Testing I2C
-
-Now when you log in you can type the following command to see all the connected devices
-
-#+BEGIN_EXAMPLE
-$ sudo i2cdetect -y 1
 #+END_EXAMPLE
 
 * Usage
