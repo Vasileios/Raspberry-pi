@@ -4,11 +4,11 @@ VA-210417
 
 * Soldering
 
-Prepare the header strip, Add the breakout board, and solder
+Prepare the header strip, add the breakout board, and solder
 
 see more [[https://learn.adafruit.com/adafruit-mpr121-12-key-capacitive-touch-sensor-breakout-tutorial/assembly][here]]
 
-After you've soldered the sensor to the header strip move to the wiring session.
+After you've soldered the sensor to the header strip start wiring.
 
 * Wiring
 
