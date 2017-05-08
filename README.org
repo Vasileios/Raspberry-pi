@@ -70,7 +70,7 @@ cd examples
 sudo python simpletest.py
 #+END_EXAMPLE
 
-These are the output values of 12 capacitive touch inputs
+These are the output values of 12 capacitive touch inputs in SuperCollider. 
 
 - 0 = 1
 - 1 = 2
